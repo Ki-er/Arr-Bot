@@ -12,6 +12,8 @@ module.exports = {
             .setRequired(true)
             .addChoices(
                 { name: 'Ashen Reaches', value: 'ashenreaches' },
+                { name: 'Cannon Cove', value: 'cannoncove' },
+
             )),
 
     /**
@@ -48,6 +50,29 @@ module.exports = {
             .addField(`Withered tree to the North West`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Withered%20tree%20to%20the%20North%20West|-10551.6513671875_10165.8583984375)`)
             .addField(`Wooden jetty`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Wooden%20jetty|-10537.685546875_10187.3193359375)`)
             .addField(`Eruption`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Eruption|-10501.990234375_10104.908203125)`)
+            interaction.reply({ embeds: [embed]});
+        }
+
+        if(string == 'cannoncove'){
+            const embed = new MessageEmbed()
+            .setTitle('Cannon Cove')
+            .setColor('GREEN')
+            .setFooter({ text: `Called By: ${interaction.user.tag}`})         
+            .setTimestamp()
+            .addField(`Abandoned rowboat on the North West shores`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Abandoned%20rowboat%20on%20the%20North%20West%20shores|-5592.9007568359375_4474.959045410156)`)
+            .addField(`Campfire near the cave entrance to the East`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Campfire%20near%20the%20cave%20entrance%20to%20the%20East|-5607.6650390625_4521.2431640625)`)
+            .addField(`Cavern below Cannon Peak`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Cavern%20below%20Cannon%20Peak|-5611.971633911133_4505.5)`)
+            .addField(`End of the pier`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|End%20of%20the%20pier|-5538.6507568359375_4442.209045410156)`)
+            .addField(`Fallen climber in the cavern below Cannon Peak`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Fallen%20climber%20in%20the%20cavern%20below%20Cannon%20Peak|-5607_4503.75)`)
+            .addField(`Forbidden tomes`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Forbidden%20tomes|-5600.6650390625_4514.2431640625)`)
+            .addField(`Forgotten castaway on the East shores`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Forgotten%20castaway%20on%20the%20East%20shores|-5605.6650390625_4552.7431640625)`)
+            .addField(`Giant’s Stone on the farthest West beach`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Giant%27s%20Stone%20on%20the%20farthest%20West%20beach|-5650.6650390625_4381.2431640625)`)
+            .addField(`Grove below the tip of Cannon Peak`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Grove%20below%20the%20tip%20of%20Cannon%20Peak|-5620.034713745117_4471.112243652344)`)
+            .addField(`Impaled adventurer to the South East`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Impaled%20adventurer%20to%20the%20South%20East|-5623.1650390625_4519.9931640625)`)
+            .addField(`Long abandoned beach camp`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Long%20abandoned%20beach%20camp|-5597.631587982178_4474.691696166992)`)
+            .addField(`Unfortunate explorer at the abandoned rowboat on the North West shores`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Unfortunate%20explorer%20at%20the%20abandoned%20rowboat%20on%20the%20North%20West%20shores|-5591.9007568359375_4480.209045410156)`)
+            .addField(`Painted tale of a monstrous foe`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Painted%20tale%20of%20a%20monstrous%20foe|-5631.8310546875_4481.3876953125)`)
+
             interaction.reply({ embeds: [embed]});
         }
 
