@@ -48,7 +48,7 @@ module.exports = {
             .addField(`Unfortunate adventurer at the West pool`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Unfortunate%20adventurer%20at%20the%20West%20pool|-10609.2685546875_10095.259765625)`)
             .addField(`Warning post to the East`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Warning%20post%20to%20the%20East|-10603.912109375_10162.970703125)`)
             .addField(`Withered tree to the North West`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Withered%20tree%20to%20the%20North%20West|-10551.6513671875_10165.8583984375)`)
-            .addField(`Wooden jetty`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Wooden%20jetty|-10537.685546875_10187.3193359375)`)
+            .addField(`Wooden jetty`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark%7CLandmark%7CWooden%20jetty%7C-10537.685546875_10187.319335938)`)
             .addField(`Eruption`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Eruption|-10501.990234375_10104.908203125)`)
             interaction.reply({ embeds: [embed]});
         }
