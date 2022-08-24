@@ -72,7 +72,6 @@ module.exports = {
             .addField(`Long abandoned beach camp`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Long%20abandoned%20beach%20camp|-5597.6315879822_4474.691696167`)
             .addField(`Unfortunate explorer at the abandoned rowboat on the North West shores`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Unfortunate%20explorer%20at%20the%20abandoned%20rowboat%20on%20the%20North%20West%20shores|-5591.9007568359_4480.2090454102)`)
             .addField(`Painted tale of a monstrous foe`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Painted%20tale%20of%20a%20monstrous%20foe|-5631.8310546875_4481.3876953125)`)
-
             interaction.reply({ embeds: [embed]});
         }
 
