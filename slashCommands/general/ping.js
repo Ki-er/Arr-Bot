@@ -2,7 +2,7 @@ const { Client, CommandInteraction, MessageEmbed } = require("discord.js");
 
 module.exports = {
     name: "ping",
-    description: "returns ping of the Hullcss bot",
+    description: "returns ping of the bot",
     type: 'CHAT_INPUT',
     /**
      *
@@ -17,7 +17,7 @@ module.exports = {
         let seconds = Math.floor(client.uptime / 1000) % 60;
 
         const embed = new MessageEmbed()
-        .setColor('GREEN')
+        .setColor('BLUE')
         .setFooter({ text: `Called By: ${interaction.user.tag}`})
         .setTimestamp()
         .setTitle("Pong!")
