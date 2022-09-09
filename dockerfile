@@ -1,11 +1,11 @@
 FROM node:16.16.0
 
-RUN mkdir -p /usr/arrbot
-WORKDIR /usr/arrbot
+RUN mkdir -p /usr/arrbot/src
+WORKDIR /usr/arrbot/src
 
-COPY package.json /usr/arrbot
+COPY package.json /usr/arrbot/src
 RUN npm install
 
-COPY . /usr/arrbot
+COPY . /usr/arrbot/src
 
-CMD ["node", "index.js"]
+CMD ["node", "src/index.js"]
