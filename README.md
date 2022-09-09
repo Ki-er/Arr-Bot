@@ -12,5 +12,5 @@ docker run -d \
 -e DISCORD_TOKEN='INSERT DISCORD TOKEN' \
 -e PREFIX='~' \
 --restart unless-stopped \
-kieranr27/arrbot:main
+kieranr27/arrbot:master
 ```
