@@ -14,7 +14,7 @@ module.exports = {
                 { name: 'Ashen Reaches', value: 'ashenreaches' },
                 { name: 'Cannon Cove', value: 'cannoncove' },
                 { name: 'Crescent Isle', value: 'crescentisle' },
-
+                { name: 'Crooks Hollow', value: 'crookshollow' },
             )),
 
     /**
@@ -103,10 +103,42 @@ module.exports = {
             .addField(`Unfortunate angler on the North East beach`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Unfortunate%20angler%20on%20the%20North%20East%20beach|-5309.28125_2919.1396484375)`)
             .addField(`Water well to the South East`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Water%20well%20to%20the%20South%20East|-5444.8955078125_2941.9296875)`)
             .addField(`Wooden bridge`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Wooden%20bridge|-5404.75390625_2880.7596435547)`)
-
             interaction.reply({ embeds: [embed]});
         }
 
+        if(string == 'crookshollow')
+        {
+            const embed = new MessageEmbed()
+            .setTitle('Crooks Hollow')
+            .setColor('BLUE')
+            .setFooter({ text: `Called By: ${interaction.user.tag}`})         
+            .setTimestamp()
+            .addField(`Cavern camps forgotten prisoner`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Cavern%20camp%27s%20forgotten%20prisoner|-7836.64453125_7021.6064453125)`)
+            .addField(`Cavern campfire`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Cavern%20campfire|-7840.39453125_7024.1064453125)`)
+            .addField(`Cavern entrance beneath the rickety bridge`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Cavern%20entrance%20beneath%20the%20rickety%20bridge|-7926.1689453125_7038.6279296875)`)
+            .addField(`Cavern entrance hidden in the North jungle`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Cavern%20entrance%20hidden%20in%20the%20North%20jungle|-7824.2041015625_7039.48828125)`)
+            .addField(`Great stone mouth in the bay`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Great%20stone%20mouth%20in%20the%20bay|-7896.923828125_7022.2373046875)`)
+            .addField(`Highest point`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Highest%20point|-7919.39453125_7041.8564453125)`)
+            .addField(`Rock stairway in the high cavern`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Rock%20stairway%20in%20the%20high%20cavern|-7903.64453125_7060.8564453125)`)
+            .addField(`Small stone mouth in the bay`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Small%20stone%20mouth%20in%20the%20bay|-7868_7013)`)
+            .addField(`Stone Head`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Stone%20Head|-7924.39453125_7059.8564453125)`)
+            .addField(`Tunnel atop the wooden staircase`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Tunnel%20atop%20the%20wooden%20staircase|-7904.7939453125_7010.8876953125)`)
+            .addField(`Twin Palms sandbank to the West`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Twin%20Palms%20sandbank%20to%20the%20West|-7913.0439453125_6949.8876953125)`)
+            .addField(`Weathered pier in the bay`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Weathered%20pier%20in%20the%20bay|-7870.2470703125_6996.103515625)`)
+            .addField(`Beetle at the crossing of the ways`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Beetle%20at%20the%20crossing%20of%20the%20ways|-7893.4541015625_7032.48828125)`)
+            .addField(`Call of the Trumpets up high`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Call%20of%20the%20Trumpets%20up%20high|-7914.2041015625_7071.73828125)`)
+            .addField(`Dueling crabs on the South West beach`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Dueling%20crabs%20on%20the%20South%20West%20beach|-7911.9541015625_6966.98828125)`)
+            .addField(`Endless Lizard painting`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Endless%20Lizard%20painting|-7845.4541015625_7021.23828125)`)
+            .addField(`Hooks in cave`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Hooks%20in%20cave|-7899.2041015625_7061.48828125)`)
+            .addField(`Lone painted crab on the North beach`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Lone%20painted%20crab%20on%20the%20North%20beach|-7808.9541015625_7047.73828125)`)
+            .addField(`Painted fire in the high cavern`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Painted%20fire%20in%20the%20high%20cavern|-7904.4541015625_7057.98828125)`)
+            .addField(`Painted spears`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Painted%20spears|-7900.673828125_7020.9873046875)`)
+            .addField(`Path between two pincers to the South West`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Path%20between%20two%20pincers%20to%20the%20South%20West|-7916.9541015625_6987.98828125)`)
+            .addField(`Sunstone in the bay`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Sunstone%20in%20the%20bay|-7854.9541015625_6990.73828125)`)
+            .addField(`Watcher over the East sea`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Watcher%20over%20the%20East%20sea|-7869.4541015625_7057.48828125)`)
+            interaction.reply({ embeds: [embed]});
+
+        }
 
     },
 };
