@@ -15,7 +15,9 @@ module.exports = {
                 { name: 'Cannon Cove', value: 'cannoncove' },
                 { name: 'Crescent Isle', value: 'crescentisle' },
                 { name: 'Crooks Hollow', value: 'crookshollow' },
-            )),
+                { name: 'Devils Ridge', value: 'devilsridge' },
+
+                )),
 
     /**
      *
@@ -137,8 +139,41 @@ module.exports = {
             .addField(`Sunstone in the bay`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Sunstone%20in%20the%20bay|-7854.9541015625_6990.73828125)`)
             .addField(`Watcher over the East sea`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Watcher%20over%20the%20East%20sea|-7869.4541015625_7057.48828125)`)
             interaction.reply({ embeds: [embed]});
-
         }
+
+
+        if(string == 'devilsridge')
+        {
+            const embed = new MessageEmbed()
+            .setTitle('Devils Ridge')
+            .setColor('BLUE')
+            .setFooter({ text: `Called By: ${interaction.user.tag}`})         
+            .setTimestamp()
+            .addField(`Ancient Kraken chamber`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Ancient%20Kraken%20chamber|-9175.5_8056.5)`)
+            .addField(`Base of Devils Tears`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Base%20of%20Devil%27s%20Tears|-9169.25_8012.75)`)
+            .addField(`Boulder crushed explorer`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Boulder%20crushed%20explorer|-9184_8045)`)
+            .addField(`Caged explorer`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Caged%20explorer|-9184.25_8054.5)`)
+            .addField(`Cavern opening hidden by tears`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Cavern%20opening%20hidden%20by%20tears|-9168.25_8018)`)
+            .addField(`Chamber of stalactites`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Chamber%20of%20stalactites|-9188.25_8044)`)
+            .addField(`Cursed Boar Shrine`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Cursed%20Boar%20Shrine|-9197_8039.25)`)
+            .addField(`Highest peak`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Highest%20peak|-9135.5_8001)`)
+            .addField(`Impaled explorer`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Impaled%20explorer|-9154.75_8044.25)`)
+            .addField(`Mysterious cave waterfall`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Mysterious%20cave%20waterfall|-9194.75_8049.25)`)
+            .addField(`Overgrown entrance to the North cave`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Overgrown%20entrance%20to%20the%20North%20cave|-9140.5_8038)`)
+            .addField(`Stone Head`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Stone%20Head|-9152_8064)`)
+            .addField(`Battle of the Boar on the South grassy slope`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Battle%20of%20the%20Boar%20on%20the%20South%20grassy%20slope|-9240.8701171875_8042.083984375)`)
+            .addField(`Boars trekking through the South grove`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Boars%20trekking%20through%20the%20South%20grove|-9218.8701171875_8040.583984375)`)
+            .addField(`Legendary Lone Hunter on the North beach`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Legendary%20Lone%20Hunter%20on%20the%20North%20beach|-9127.6435546875_8026.9658203125)`)
+            .addField(`Monstrous sea legend`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Monstrous%20sea%20legend|-9180.1435546875_8051.9658203125)`)
+            .addField(`Painted Fire on the South West beach`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Painted%20Fire%20on%20the%20South%20West%20beach|-9216.8701171875_8012.333984375)`)
+            .addField(`Painted spears on the South West beach`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Painted%20spears%20on%20the%20South%20West%20beach|-9260.1201171875_7979.583984375)`)
+            .addField(`Sunstone on the North East shores`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Sunstone%20on%20the%20North%20East%20shores|-9151.6435546875_8086.2158203125)`)
+            .addField(`Trumpeters atop the rocks of the East coast`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Trumpeters%20atop%20the%20rocks%20of%20the%20East%20coast|-9196.7314453125_8089.236328125)`)
+            .addField(`Wild Boar Head`, `[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=rock_painting|Rock%20Painting|Wild%20Boar%20Head|-9142.3935546875_8043.4658203125)`)
+            interaction.reply({ embeds: [embed]});
+        }
+
+
 
     },
 };
