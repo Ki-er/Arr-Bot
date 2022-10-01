@@ -4,8 +4,6 @@
     "description": "",
     "main": "src/index.js",
     "scripts": {
-        "start": "node src/index.js",
-        "test": "nodemon index.js",
         "lint": "eslint . --fix",
         "spell": "cspell /**/",
         "spell-code": "cspell src/**/",
