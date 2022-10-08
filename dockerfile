@@ -1,4 +1,4 @@
-FROM node:16.17.0
+FROM node:18.10.0
 RUN mkdir -p /usr/arrbot/src
 WORKDIR /usr/arrbot/src
 COPY package.json /usr/arrbot/src
