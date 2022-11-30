@@ -19,7 +19,7 @@
         "glob": "^7.2.3"
     },
     "devDependencies": {
-        "cspell": "^6.15.0",
+        "cspell": "^6.15.1",
         "eslint": "^8.28.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-import": "^2.26.0",
