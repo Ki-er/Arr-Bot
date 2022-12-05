@@ -1,36 +1,35 @@
 {
-    "language": "en",
-    "ignorePaths": [
-        ".firebase/**",
-        ".github/**",
-        ".yarn/**",
-        "dist/**",
-        "node_modules/**"
-    ],
-    "dictionaries": [
-        "bash",
-        "companies",
-        "cpp",
-        "cpp",
-        "cryptocurrencies",
-        "css",
-        "docker",
-        "en_GB",
-        "en_US",
-        "entities",
-        "filetypes",
-        "fonts",
-        "fullstack",
-        "html",
-        "misc",
-        "node",
-        "npm",
-        "npm",
-        "rust",
-        "softwareTerms",
-        "softwareTerms",
-        "typescript"
-    ],
-    "words": [
-    ]
+	"language": "en",
+	"ignorePaths": [
+		".firebase/**",
+		".github/**",
+		".yarn/**",
+		"dist/**",
+		"node_modules/**"
+	],
+	"dictionaries": [
+		"bash",
+		"companies",
+		"cpp",
+		"cpp",
+		"cryptocurrencies",
+		"css",
+		"docker",
+		"en_GB",
+		"en_US",
+		"entities",
+		"filetypes",
+		"fonts",
+		"fullstack",
+		"html",
+		"misc",
+		"node",
+		"npm",
+		"npm",
+		"rust",
+		"softwareTerms",
+		"softwareTerms",
+		"typescript"
+	],
+	"words": []
 }
