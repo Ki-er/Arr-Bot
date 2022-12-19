@@ -36,4 +36,4 @@ Invite Arr-Bot to your discord server: https://discord.com/api/oauth2/authorize?
 
 ## License
 
-Arr-Bot is licensed under the MIT License. The full license text is included in the [LICENSE](LICENSE) file in this repository. Tldr legal have a [great summary](https://www.tldrlegal.com/l/mit) of the license if you're interested.
+Arr-Bot is licensed under the MIT License. The full license text is included in the [LICENSE](LICENSE) file in this repository. TLDR legal have a [great summary](https://www.tldrlegal.com/l/mit) of the license if you're interested.

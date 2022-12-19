@@ -5,7 +5,8 @@
 		".github/**",
 		".yarn/**",
 		"dist/**",
-		"node_modules/**"
+		"node_modules/**",
+		"CHANGELOG.md"
 	],
 	"dictionaries": [
 		"bash",
@@ -31,5 +32,17 @@
 		"softwareTerms",
 		"typescript"
 	],
-	"words": []
+	"words": [
+		"arrbot",
+		"ashenreaches",
+		"boarpost",
+		"boarposts",
+		"cannoncove",
+		"crescentisle",
+		"crookshollow",
+		"devilsridge",
+		"Kieran",
+		"kieranr",
+		"TLDR"
+	]
 }

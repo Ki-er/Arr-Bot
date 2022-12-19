@@ -4,7 +4,7 @@ client.on('interactionCreate', async (interaction) => {
 	// Slash Command Handling
 	if (interaction.isCommand()) {
 		const cmd = client.slashCommands.get(interaction.commandName);
-		if (!cmd) return interaction.reply({ content: 'An error has occured ' });
+		if (!cmd) return interaction.reply({ content: 'An error has occurred ' });
 
 		const args = [];
 

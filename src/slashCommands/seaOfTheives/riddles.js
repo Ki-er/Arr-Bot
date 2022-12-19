@@ -51,7 +51,7 @@ module.exports = {
 					`[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Explorer%27s%20remains%20in%20the%20North%20cave%20of%20bones|-10550.43359375_10130.995117188)`
 				)
 				.addField(
-					`Fishermans long forgotten wares to the West`,
+					`Fisherman long forgotten wares to the West`,
 					`[Here](https://maps.seaofthieves.rarethief.com/index.html?marker=landmark|Landmark|Fisherman%27s%20long%20forgotten%20wares%20to%20the%20West|-10582.5_10097)`
 				)
 				.addField(
