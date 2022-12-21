@@ -11,11 +11,11 @@ module.exports = {
 				.setDescription('The island you are on')
 				.setRequired(true)
 				.addChoices(
-					{ name: 'Ashen Reaches', value: 'ashenreaches' },
-					{ name: 'Cannon Cove', value: 'cannoncove' },
-					{ name: 'Crescent Isle', value: 'crescentisle' },
-					{ name: 'Crooks Hollow', value: 'crookshollow' },
-					{ name: 'Devils Ridge', value: 'devilsridge' }
+					{ name: 'Ashen Reaches', value: 'ashenReaches' },
+					{ name: 'Cannon Cove', value: 'cannonCove' },
+					{ name: 'Crescent Isle', value: 'crescentIsle' },
+					{ name: 'Crooks Hollow', value: 'crooksHollow' },
+					{ name: 'Devils Ridge', value: 'devilsRidge' }
 				)
 		),
 
@@ -28,7 +28,7 @@ module.exports = {
 	run: async (client, interaction) => {
 		const string = interaction.options.getString('island');
 
-		if (string == 'ashenreaches') {
+		if (string == 'ashenReaches') {
 			const embed = new MessageEmbed()
 				.setTitle('Ashen Reaches')
 				.setColor('BLUE')
@@ -113,7 +113,7 @@ module.exports = {
 			interaction.reply({ embeds: [embed] });
 		}
 
-		if (string == 'cannoncove') {
+		if (string == 'cannonCove') {
 			const embed = new MessageEmbed()
 				.setTitle('Cannon Cove')
 				.setColor('BLUE')
@@ -174,7 +174,7 @@ module.exports = {
 			interaction.reply({ embeds: [embed] });
 		}
 
-		if (string == 'crescentisle') {
+		if (string == 'crescentIsle') {
 			const embed = new MessageEmbed()
 				.setTitle('Crescent Isle')
 				.setColor('BLUE')
@@ -267,7 +267,7 @@ module.exports = {
 			interaction.reply({ embeds: [embed] });
 		}
 
-		if (string == 'crookshollow') {
+		if (string == 'crooksHollow') {
 			const embed = new MessageEmbed()
 				.setTitle('Crooks Hollow')
 				.setColor('BLUE')
@@ -368,7 +368,7 @@ module.exports = {
 			interaction.reply({ embeds: [embed] });
 		}
 
-		if (string == 'devilsridge') {
+		if (string == 'devilsRidge') {
 			const embed = new MessageEmbed()
 				.setTitle('Devils Ridge')
 				.setColor('BLUE')
