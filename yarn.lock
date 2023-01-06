@@ -180,9 +180,9 @@
   integrity sha512-r077HcbxGQ0gSjs4eqryvb9cu8/Noe7pzl9QksxFIEaMgyP180DEaCLAOnat4KHl7X0wntipY+naY5PVRQUI9A==
 
 "@cspell/dict-gaming-terms@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-gaming-terms/-/dict-gaming-terms-1.0.3.tgz#759cb105458801a28ce2e859d2911237623f2c95"
-  integrity sha512-sHtwS/noitj+pxNpNp4TCsNzpUBQcFe03HzKyd0NmP5L8hFXsybqjtd3tYcHlvr1trUNkYtrRx0jnc32/qCsRw==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-gaming-terms/-/dict-gaming-terms-1.0.4.tgz#b67d89d014d865da6cb40de4269d4c162a00658e"
+  integrity sha512-hbDduNXlk4AOY0wFxcDMWBPpm34rpqJBeqaySeoUH70eKxpxm+dvjpoRLJgyu0TmymEICCQSl6lAHTHSDiWKZg==
 
 "@cspell/dict-git@^2.0.0":
   version "2.0.0"
@@ -210,9 +210,9 @@
   integrity sha512-BskOE2K3AtGLkcjdJmo+H6/fjdfDP4XYAsEGXpB26rvdnXAnGEstE/Q8Do6UfJCvgOVYCpdUZLcMIEpoTy7QhQ==
 
 "@cspell/dict-java@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-java/-/dict-java-5.0.3.tgz#511debb24c41661f403ff27824ff5a98af32fbe3"
-  integrity sha512-zQYPZxfso0W4QigsX5zX4lAZZYIrBcnHbrZkHplgmpDwR34GWBg2GypPMkDbli5Oogij/R7o4MaoefBQzcNIPA==
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-java/-/dict-java-5.0.4.tgz#a5bf80474bbe10966c13701c0eab751ae959d5e7"
+  integrity sha512-43VrLOLcBxavv6eyL4BpsnHrhVOgyYYeJqQRJG5XKObcpWy3+Lpadj58CfTVOr7M/Je3pUpd4tvsUhf/lWXMVA==
 
 "@cspell/dict-k8s@^1.0.0":
   version "1.0.0"
@@ -295,9 +295,9 @@
   integrity sha512-7fvVcvy751cl31KMD5j04yMGq2UKj018/1hx3FNtdUI9UuUTMvhBrTAqHEEemR3ZeIC9i/5p5SQjwQ13bn04qw==
 
 "@cspell/dict-svelte@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@cspell/dict-svelte/-/dict-svelte-1.0.1.tgz#3e221534890c73f14a3506fba079239d7704f611"
-  integrity sha512-CYnEftTY2cFAy+Ag8AN+OxUtqhyhPfT7yX6Cxf701RSzLCllWDHZ4wlCii+uYqkscZUZp1Ko2QY+t3SyOqlG0g==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@cspell/dict-svelte/-/dict-svelte-1.0.2.tgz#0c866b08a7a6b33bbc1a3bdbe6a1b484ca15cdaa"
+  integrity sha512-rPJmnn/GsDs0btNvrRBciOhngKV98yZ9SHmg8qI6HLS8hZKvcXc0LMsf9LLuMK1TmS2+WQFAan6qeqg6bBxL2Q==
 
 "@cspell/dict-swift@^2.0.1":
   version "2.0.1"
@@ -925,11 +925,12 @@ es-abstract@^1.19.0, es-abstract@^1.20.4:
     which-typed-array "^1.1.9"
 
 es-set-tostringtag@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/es-set-tostringtag/-/es-set-tostringtag-2.0.0.tgz#b33fdef554fb35a264fe022c1f095f1f2022fa85"
-  integrity sha512-vZVAIWss0FcR/+a08s6e2/GjGjjYBCZJXDrOnj6l5kJCKhQvJs4cnVqUxkVepIhqHbKHm3uwOvPb8lRcqA3DSg==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/es-set-tostringtag/-/es-set-tostringtag-2.0.1.tgz#338d502f6f674301d710b80c8592de8a15f09cd8"
+  integrity sha512-g3OMbtlwY3QewlqAiMLI47KywjWZoEytKr8pf6iTC8uJq5bIAH52Z9pnQ8pVL6whrCto53JZDuUIsifGeLorTg==
   dependencies:
     get-intrinsic "^1.1.3"
+    has "^1.0.3"
     has-tostringtag "^1.0.0"
 
 es-shim-unscopables@^1.0.0:
@@ -1430,12 +1431,13 @@ internal-slot@^1.0.4:
     side-channel "^1.0.4"
 
 is-array-buffer@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/is-array-buffer/-/is-array-buffer-3.0.0.tgz#d93aaf24dade5e5391e2992e884c378482f078c1"
-  integrity sha512-TI2hnvT6dPUnn/jARFCJBKL1eeabAfLnKZ2lmW5Uh317s1Ii2IMroL1yMciEk/G+OETykVzlsH6x/L4q/avhgw==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/is-array-buffer/-/is-array-buffer-3.0.1.tgz#deb1db4fcae48308d54ef2442706c0393997052a"
+  integrity sha512-ASfLknmY8Xa2XtB4wmbz13Wu202baeA18cJBCeCy0wXUHZF0IPyVEXqKEcd+t2fNSLLL1vC6k7lxZEojNbISXQ==
   dependencies:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.3"
+    is-typed-array "^1.1.10"
 
 is-arrayish@^0.2.1:
   version "0.2.1"
